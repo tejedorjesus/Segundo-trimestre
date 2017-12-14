@@ -4,10 +4,12 @@ public class indicador {
 	private int valormaximo;
 	private int valorminimo;
 	private int valoractual;
+	private String sustancia;
 	
-	
-
-	
+	public indicador(String nuevasustancia)
+	{
+		sustancia = nuevasustancia; //Se le da un nombre a la sustancia
+	}
 	//Método para obtener el valor maximo
 		public int getvalormaximo()
 		{
@@ -28,9 +30,7 @@ public class indicador {
 			valorminimo = nuevovalormaximo;
 		}
 		public int getvaloractual()
-		
 		{
-			valoractual=20;
 			return valoractual;
 		}
 		//Método para establecer el valor minimo
@@ -40,7 +40,11 @@ public class indicador {
 		}
 		
 
+		//Método para obtener el nombre de la sustancia
+		public String getsustancia()
+		{
+			return sustancia;
 		}
-	
+	}
 
 

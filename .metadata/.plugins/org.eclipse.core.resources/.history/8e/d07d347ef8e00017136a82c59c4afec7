@@ -17,20 +17,14 @@ public class indicadortest {
 		Scanner teclado = new Scanner (System.in); 
 		
 		int nuevovaloractual;
-		int litrosgastados;
 		
 		indicador gasolina;
 		gasolina=new indicador();
 		
 	
-		System.out.println( "  tenias 20 litros ¿cuantos litros has hechado? ");
+		System.out.println( " cuantos has hechado ");
 		nuevovaloractual=teclado.nextInt();
 		System.out.println(" ahora tienes " +(gasolina.getvaloractual()+nuevovaloractual));
-		
-		System.out.println("cuantos litros has gastado");
-		litrosgastados=teclado.nextInt();
-		System.out.println(" ahora tienes " +(gasolina.getvaloractual()+nuevovaloractual-litrosgastados));
-		
 		
 	}
 
