@@ -1,0 +1,9 @@
+1513789951316	Extract local variable 'existedepart'
+1513790117638	Extract constant 'NOEXISTEDEPART'
+1513790738887	Extract Class...
+1513790763079	Extract constant 'depar_error'
+1513791003363	Convert local variable 'existedepart' to field
+1513791861263	Extract method 'insertar'
+1513792034407	Extract method 'consultar'
+1513793195522	Extract Class...
+1513793694175	Extract Class...

@@ -1,0 +1,11 @@
+package tragabolasmio;
+
+public class Tragabolastest {
+
+	public static void main(String[] args) {
+		TragaBolas hipopotamo = new TragaBolas("rojo", 0, 5);
+		System.out.println(hipopotamo.visualizar());
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;maxBolas&apos; in &apos;tragabolasmio.Tragabolastest.main(...)&apos; to &apos;maximoDeBolas&apos;&#x0D;&#x0A;- Original project: &apos;tragabolasmio&apos;&#x0D;&#x0A;- Original element: &apos;tragabolasmio.Tragabolastest.main(String[]).maxBolas&apos;&#x0D;&#x0A;- Renamed element: &apos;maxBolas&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;maxBolas&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;tragabolasmio{Tragabolastest.java[Tragabolastest~main~\[QString;@maxBolas!147!161!151!158!I!0!false" name="maximoDeBolas" references="true" stamp="1515515402060" version="1.0"/>
+</session>
