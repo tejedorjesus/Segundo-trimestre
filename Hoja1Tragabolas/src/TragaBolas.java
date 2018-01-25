@@ -2,70 +2,78 @@
 import java.util.Scanner;
 
 public class TragaBolas {
-	private String color;// Sólo puede ser verde, amarillo, rojo
+	private String color;
 	private int bolasComidas;
 	private int maxBolas;
-
-	/*TragaBolas() {
-	}*/
-
-	TragaBolas(String color, int bolasComidas, int maxBolas) {
-		color = "";
-		bolasComidas = 0;
-		maxBolas = 0;
-	}
-
-	public String visualizar() { //metodos de instancia
-		System.out.println("El hipo es de color " + color + " lleva " + bolasComidas
-				+ " bolas comidas y su máximo de bolas es " + maxBolas);
-		return "No muestra nada";
-	}// visualizar
-
-	public int comer() { //metodos de instancia
-		if (bolasComidas < maxBolas) {
-			bolasComidas++;
-			System.out.println("Ha comido una ñam ñam");
-		} else {
-			System.out.println("No puedo comer mas necesito dormir");
+	
+	
+	public TragaBolas(String color, int maxBolas) {
+		
+		Scanner sc = new Scanner(System.in);
+		do{
+			System.out.println("¿color hipo?");
+			this.color = sc.nextLine();
 		}
-		return bolasComidas;
-	}// comer
-
-	public String trotar() { //metodos de instancia
-		if (bolasComidas >= 1) {
-			bolasComidas--;
-			System.out.println("Estoy trotando");
-		} else {
-			System.out.println("Estoy esmirriao no me puedo ni mover");
+		while(!this.color.toLowerCase().equals("azul") && !this.color.toLowerCase().equals("amarillo")
+				&& !this.color.toLowerCase().equals("verde") && !this.color.toLowerCase().equals("rojo"));
+		
+		System.out.println("numero maxiomo de bolas");
+		this.maxBolas = sc.nextInt();
+	}// constructor
+	
+	public String comer() {
+		String mensaje;
+		if(bolasComidas<maxBolas){
+			bolasComidas ++;
+			mensaje = "el hipo ha comido una bola";
+		}else{
+			mensaje = " el hipo esta lleno";
+			
 		}
-		return "TROTAR";
-	}// trotar
-
-	public String dormir() { //metodos de instancia
-		String cadena = "";
-		if (bolasComidas == maxBolas) {
-			bolasComidas = bolasComidas / 2;
-			cadena = "Tripa llena. ZZZZZZ";
-		} else {
-			cadena = "No quiero dormir";
+		
+		return mensaje;
+		
+		
+	}//comer
+	
+	public String trotar(){
+		String mensaje;
+		if (bolasComidas==0){
+			mensaje= " no puedo trotar tengo que comer";
+		}else{
+			bolasComidas --;
+			mensaje= "estoy trotando";
 		}
-		return cadena;
-	}// dormir
+		return mensaje;
+	}//trotar
+	
 
-	/**
-	 * @param color
-	 *            the color to set
-	 */
-	public void setColor(String color) { //metodos de instancia
-		this.color = color;
-	}
-
-	/**
-	 * @param maxBolas
-	 *            the maxBolas to set
-	 */
-	public void setMaxBolas(int maxBolas) { //metodos de instancia
-		this.maxBolas = maxBolas;
-	}
-
-}// Class
+	public String dormir(){
+		String mensaje;
+		if (bolasComidas==maxBolas){
+			bolasComidas= bolasComidas/2;
+			mensaje= " a dormir";
+		}else{
+			
+			mensaje= "no quiero dormir quiero comer";
+		}
+		return mensaje;
+	}//dormir
+	
+	public String visualizar(){
+		String status;
+		status= "el hipo es de color" + color +  " ha comido " + bolasComidas+ " bolas y su maximo de de bolas es " + maxBolas ; 
+		
+			
+			
+		
+		return status;
+	}//status
+	
+	
+	
+	
+	
+	
+}//tragabolas
+	

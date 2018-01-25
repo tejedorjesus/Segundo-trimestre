@@ -1,0 +1,69 @@
+import java.util.Scanner;
+public class vehiculosMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int ruedas=0;
+		int velMax=0;
+		int velAct=0;
+		int carga=0;
+		Scanner sc = new Scanner(System.in);
+		vehiculos vehiculo1 = null;
+		vehiculo1 = null;
+		vehiculos vehiculo2 = null;
+		vehiculo2 = null;
+
+
+		
+		System.out.println("introduce el numero de ruedas del coche");
+		ruedas= sc.nextInt();
+		System.out.println( "cuatro ruedas tiene mi coche cuatro pastillas me como esta noche");
+		System.out.println("introduce la velocidad maxima");
+		velMax= sc.nextInt();
+		System.out.println("introduce la velocidad actual");
+		velAct= sc.nextInt();
+		System.out.println("introduce el  peso del coche");
+		carga= sc.nextInt();
+		vehiculo1= new vehiculos(ruedas, velMax,velAct, carga);
+		
+		
+		
+		
+		
+		System.out.println("introduce el numero de ruedas del coche");
+		ruedas= sc.nextInt();
+		System.out.println( "cuatro ruedas tiene mi coche cuatro pastillas me como esta noche");
+		System.out.println("introduce la velocidad maxima");
+		velMax= sc.nextInt();
+		System.out.println("introduce la velocidad actual");
+		velAct= sc.nextInt();
+		System.out.println("introduce el  peso del coche");
+		carga= sc.nextInt();
+		vehiculo2= new vehiculos(ruedas, velMax,velAct, carga);
+		
+		System.out.println("----------------------------------------------------------------");
+		
+		System.out.println("el vehiculo numero 1 tiene" +vehiculo1.getNumeroDeRuedas() + "ruedas ");
+		System.out.println("Su velocidad maxima es " + vehiculo1.getVelocidadMax());
+		System.out.println(" su velocidad actual es " + vehiculo1.getVelocidadActual());
+		System.out.println(" su peso es " + vehiculo1.getPeso());
+		
+		System.out.println("----------------------------------------------------------------");
+		
+		System.out.println("el vehiculo numero 2 tiene" +vehiculo2.getNumeroDeRuedas() + "ruedas ");
+		System.out.println("Su velocidad maxima es " + vehiculo2.getVelocidadMax());
+		System.out.println(" su velocidad actual es " + vehiculo2.getVelocidadActual());
+		System.out.println(" su peso es " + vehiculo2.getPeso());
+		
+		System.out.println("----------------------------------------------------------------");
+		
+
+	
+
+
+
+
+	}
+
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class HoraMain {
+
+	public static void main(String[] args) {
+
+		int horas=0;
+		int minutos = 0;
+		int segundos=0;
+
+
+
+		Hora reloj =null;
+		reloj=null;
+		
+		
+		reloj.PonerHora(horas, minutos, segundos);
+		reloj=new Hora (horas, minutos, segundos);
+		
+		
+		System.out.println(reloj.visualizar());
+		
+
+
+
+
+	}
+
+}

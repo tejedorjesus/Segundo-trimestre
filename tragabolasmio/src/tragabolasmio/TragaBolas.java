@@ -16,9 +16,10 @@ public class TragaBolas {
 			this.color = sc.nextLine();
 		} while (!this.color.toLowerCase().equals("azul") && !this.color.toLowerCase().equals("amarillo")
 				&& !this.color.toLowerCase().equals("verde") && !this.color.toLowerCase().equals("rojo"));
-
+		
 		System.out.println("maximo de bolas");
 		this.maxBolas = sc.nextInt();
+		
 	}// constructor
 
 	public String visualizar() {
@@ -45,7 +46,7 @@ public class TragaBolas {
 			mensaje = "El hipopotamo no puede trotar porque no ha comido";
 		} else {
 			bolasComidas--;
-			mensaje = "Estoy trotando. Run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run ";
+			mensaje = "Estoy trotando y rebajando una bolita. Run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run run ";
 		}
 		return mensaje;
 	}// trotar
@@ -54,7 +55,7 @@ public class TragaBolas {
 		String mensaje;
 		if (bolasComidas == maxBolas) {
 			bolasComidas = bolasComidas / 2;
-			mensaje = "Tripa llena. \nzZz ";
+			mensaje = "Tripa llena me quedo con la mitad de bolas . \nzZz ";
 		} else {
 			mensaje = "No quiero dormir ";
 		}

@@ -18,7 +18,7 @@ public class Tragabolastest {
 				hipopotamo = new TragaBolas(colorHipo, maximoDeBolas);
 				System.out.println("Jesus esta contento porque has creado un hipopotamo");
 				break;
-			case 2:
+			case 2:   
 				System.out.println(hipopotamo.comer());
 				System.out.println(" ♥ Jesus te ama ♥");
 				break;
@@ -47,6 +47,6 @@ public class Tragabolastest {
 			empezar = sc.nextInt();
 		} // while
 
-	}// main
+	}// main 
 
 }// Class
