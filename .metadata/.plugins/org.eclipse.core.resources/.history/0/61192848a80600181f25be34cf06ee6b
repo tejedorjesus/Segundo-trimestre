@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EntornosEj1Test {
+
+	@Test
+	public void testMetodo_true() {
+		EntornosEj1 Prueba = new EntornosEj1();
+		assertequals("deberia dar 1", 1, Prueba.metodo(true , true));
+		
+		
+		
+	}
+
+}

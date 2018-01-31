@@ -47,7 +47,7 @@ public class ListaDePaises {
 		// para saber si el nombre existe en el array
 		boolean existencia = false;
 		for (int i = 0; i < paises.length; i++) {
-			// Si uno coincide devuelve true
+		          	// Si uno coincide devuelve true
 			if (paises[i] != null && paises[i].equals(nombre)) {
 				existencia = true;
 			}

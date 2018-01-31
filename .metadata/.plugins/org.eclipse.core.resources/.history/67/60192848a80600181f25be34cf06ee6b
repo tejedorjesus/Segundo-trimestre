@@ -1,0 +1,12 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class EntornosEj1Test {
+
+	@Test
+	public void testMetodo() {
+		fail("Not yet implemented");
+	}
+
+}

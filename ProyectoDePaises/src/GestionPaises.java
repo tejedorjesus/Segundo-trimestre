@@ -31,7 +31,7 @@ public class GestionPaises {//class
 			System.out.println("cuantos paises quieres almacenar");
 			numeroPaises=sc.nextInt();
 			paises = new ListaDePaises(numeroPaises);
-			
+			System.out.println("Africa es mierda");
 			break;
 		
 		
