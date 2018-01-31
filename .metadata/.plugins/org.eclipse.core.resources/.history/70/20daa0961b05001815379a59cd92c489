@@ -1,0 +1,40 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class GestionPaises {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		int numeromax=0;
+		String [] paises=new String [2];
+		String cadena = "";
+		Scanner sc = new Scanner(System.in);
+		int i=0;
+		
+		
+		
+		listaDePaises pais = null;
+		
+		
+		 for( i=0; i <paises.length;i++){
+			 System.out.println("introduxca el nombre del pais");
+			 paises[i]= sc.nextLine();
+	
+			
+			}
+		 for( i=0; i <paises.length;i++){
+		
+
+		
+		
+		 }
+		 System.out.print(paises[0]+ "   " + paises[1]);
+
+	}
+
+}

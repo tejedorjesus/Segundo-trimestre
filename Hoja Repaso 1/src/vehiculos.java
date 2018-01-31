@@ -56,12 +56,12 @@ public class vehiculos {
 			 vehiculo.velocidadActual = this.velocidadActual;
 			 vehiculo.velocidadMax = this.velocidadMax;
 		 }
-		 @Override
-			public String toString() {
-				return "vehiculos [numeroDeRuedas=" + numeroDeRuedas + ", velocidadMax=" + velocidadMax + ", velocidadActual="
-						+ velocidadActual + ", peso=" + peso + "]";
-			}
-
+		@Override
+		public String toString() {
+			return "vehiculos [numeroDeRuedas=" + numeroDeRuedas + ", velocidadMax=" + velocidadMax
+					+ ", velocidadActual=" + velocidadActual + ", peso=" + peso + "]";
+		}
+		
 		
 	}
 
