@@ -115,7 +115,7 @@ public class Hora {
 			horas += (minutos / 60);
 			minutos = minutos % 60;
 		}
-		System.out.printf("%02d:%02d:%02d", horas % 24, minutos, b      );
+		System.out.printf("%02d:%02d:%02d", horas % 24, minutos,      );
 		return hora;
 	}
 
