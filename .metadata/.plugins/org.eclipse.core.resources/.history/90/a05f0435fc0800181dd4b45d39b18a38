@@ -1,0 +1,14 @@
+
+public class Clases {
+	
+	
+	static public void mostrarEnPantalla(String mensage){
+		System.out.println(mensage);
+	}
+	
+	
+	
+	
+	
+
+}

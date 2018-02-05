@@ -1,0 +1,31 @@
+import java.util.Iterator;
+
+public class Ej4PrimosHastaNumero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Dado un número N que se pedirá por teclado y debe ser positivo, imprimir la lista de todos los
+		numero primos hasta dicho número incluido.
+		Hacer este programa usando el método primo que ya tenéis construido*/
+		
+		
+		int num=0;
+		int contador=0;
+		
+		num=Metodos.pedirEntero("intorduzca un nuemro please");
+
+			
+		for (int i = 0; i < num; i++) {
+		 if (Metodos.esPrimo(i)==true)
+			 System.out.printf("3d% ", + i);
+			
+		}
+		}
+			
+		
+		
+
+	}
+
+
+
