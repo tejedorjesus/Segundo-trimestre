@@ -20,7 +20,7 @@ public class Jefe extends Empleado{
 	
 
 	public static String pedirnombre(String mensaje) {
-		super.pedirnombre(sueldo); 
+		super pedirnombre(); 
 		String s1;    
 		Scanner sc = new Scanner(System.in);
 		System.out.println(mensaje);
@@ -34,7 +34,7 @@ public class Jefe extends Empleado{
 
 	public static Integer pedirsueldo(String mensaje){
 		super.pedirsueldo();
-		String numero = "";
+		String numero = "";11
 		int num;
 		Scanner sc = new Scanner(System.in);
 		do {
