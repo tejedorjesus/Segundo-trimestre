@@ -11,8 +11,8 @@ public class Jefe extends Empleado{
 	String nombreDepartamento= "";
 	public Jefe(String nombre, Integer sueldo, String titulo, String nombreDepartamento) {
 		super(nombre, sueldo);
-	
-		
+		this.nombre = nombre;
+		this.sueldo = sueldo;
 		this.titulo = titulo;
 		this.nombreDepartamento = nombreDepartamento;
 	}
@@ -25,17 +25,6 @@ public class Jefe extends Empleado{
 		System.out.println(mensaje);
 		s1 = sc.nextLine();
 		return s1;
-		
-		
-	}
-	int sueldojefe=0;
-
-		public void sueldojefe(){
-		
-			sueldojefe=sueldo+sueldojefe;
-			
-		}
-		
 
 
 

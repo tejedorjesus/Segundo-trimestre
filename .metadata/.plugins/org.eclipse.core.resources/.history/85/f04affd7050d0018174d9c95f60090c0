@@ -11,40 +11,29 @@ public class Jefe extends Empleado{
 	String nombreDepartamento= "";
 	public Jefe(String nombre, Integer sueldo, String titulo, String nombreDepartamento) {
 		super(nombre, sueldo);
-	
-		
+		this.nombre = nombre;
+		this.sueldo = sueldo;
 		this.titulo = titulo;
 		this.nombreDepartamento = nombreDepartamento;
 	}
 	
-
+	
 
 	public static String pedirnombre(String mensaje) {
-		String s1;
+		super.pedirnombre(sueldo); 
+		String s1;    
 		Scanner sc = new Scanner(System.in);
 		System.out.println(mensaje);
 		s1 = sc.nextLine();
 		return s1;
-		
-		
-	}
-	int sueldojefe=0;
-
-		public void sueldojefe(){
-		
-			sueldojefe=sueldo+sueldojefe;
-			
-		}
-		
-
-
 
 
 
 	}
+
 
 	public static Integer pedirsueldo(String mensaje){
-		
+		super.pedirsueldo();
 		String numero = "";
 		int num;
 		Scanner sc = new Scanner(System.in);
