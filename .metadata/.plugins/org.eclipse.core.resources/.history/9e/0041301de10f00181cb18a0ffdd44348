@@ -1,0 +1,42 @@
+
+public class Gestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		final String nombreEmpresa= "Electricas";
+		final int sueldo = 1000;
+		int porcentaje=0;
+		String nombre="";
+		int edad =0;
+		int numEmp=0;
+		int numJef=0;
+		Empleado[] empleados = null;
+		Jefe[] jefes = null;
+		
+		
+		
+		
+		
+		
+		numEmp=Metodos.pedirentero("cuantos empleados queres intreoducir");
+		
+		empleados = new Empleado[numEmp]; 
+		for (int i = 0; i < empleados.length; i++) {
+			 porcentaje=Metodos.pedirentero("introduzca el porcentaje en %");
+			 nombre=Metodos.pedirnombre("introduzaca el nombre");
+			 edad =Metodos.pedirentero("introduzaca la edad");
+			empleados[i] = new Empleado(porcentaje, nombre, edad);
+			
+		}
+		for (int i = 0; i < empleados.length; i++) {
+			System.out.println( empleados [i]);
+		}
+		
+		
+		
+
+	}
+
+}

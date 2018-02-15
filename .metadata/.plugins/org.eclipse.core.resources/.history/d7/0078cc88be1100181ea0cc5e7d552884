@@ -1,0 +1,33 @@
+
+public class Gestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String nombre="";
+		int edad=0;
+		int numeroMaq=0;
+		int anios=0;
+		String estudios="";
+		int ordenador=0;
+		int numEmp=0;
+		int numAdmin=0;
+		
+		
+		
+		numEmp=Metodos.pedirentero("cuantos empleados queres introducir");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+	}
+
+

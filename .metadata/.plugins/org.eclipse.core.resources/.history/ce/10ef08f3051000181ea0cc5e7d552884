@@ -1,0 +1,27 @@
+
+public class Jefe extends  Empleado{
+
+	
+	
+	
+	private String nombreDep="";
+	final private double plus= 250;
+	public Jefe(int porcentaje, String nombre, int edad, String nombreDep) {
+		super(porcentaje, nombre, edad);
+		this.nombreDep = nombreDep;
+	}
+	public String getNombreDep() {
+		return nombreDep;
+	}
+	public void setNombreDep(String nombreDep) {
+		this.nombreDep = nombreDep;
+	}
+	@Override
+	public String toString() {
+		return " \n"+ super.toString() + "nombreDep=" + nombreDep + "\n plus=" + plus;
+	}
+	
+	
+	
+	
+}

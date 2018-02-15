@@ -1,0 +1,54 @@
+
+public class Gestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String nombre="";
+		int sueldo=0;
+		String titulo = "";
+		String nombreDepartamento=""; 
+		
+		
+		Empleado empleado=null;
+		Jefe jefe = null;
+		
+		
+
+		
+		
+		System.out.println("Vamos a introducir los datos del empleado");
+		
+		nombre= Metodos.pedirnombre("nombre del empleado");
+		sueldo=Metodos.pedirsueldo("sueldo del empleado");
+		
+		empleado = new Empleado( nombre,  sueldo);
+		
+		System.out.println(empleado);
+		
+		
+		System.out.println("Vamos a introducir los datos del jefe que a su vez es empleado ");
+
+		nombre= Metodos.pedirnombre("nombre del jefe");
+		sueldo=Metodos.pedirsueldo("sueldo del jefe");
+		
+		titulo=Metodos.pedirtitulo("titulo del jefe");
+		nombreDepartamento=Metodos.pedirdep("departamento");
+		
+		
+				
+		
+		
+		
+		jefe = new Jefe (titulo, nombreDepartamento);
+		
+		System.out.println(jefe);
+		System.out.println(empleado);
+		
+		
+		
+		
+				
+	}
+
+}

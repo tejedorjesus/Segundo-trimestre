@@ -2,90 +2,39 @@ import java.util.Scanner;
 
 public class Jefe extends Empleado{
 
+
+	/*	De los jefes nos interesa: nombre, sueldo, título y nombre del departamento del que es jefe*/
+	private int  Sueldojefe=500;
+	private String titulo= "";
+	private String nombreDepartamento= "";
+
+
+
 	
-/*	De los jefes nos interesa: nombre, sueldo, título y nombre del departamento del que es jefe*/
-	
-	String nombre= "";
-	Integer sueldo=0;
-	String titulo= "";
-	String nombreDepartamento= "";
-	public Jefe(String nombre, Integer sueldo, String titulo, String nombreDepartamento) {
+	public Jefe( String  nombre, int sueldo, String titulo, String nombreDepartamento) {
 		super(nombre, sueldo);
-	
-		
 		this.titulo = titulo;
 		this.nombreDepartamento = nombreDepartamento;
 	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Estos son los datos de jefe que a la vez es " +super.toString()+"titulo=" + titulo + ", nombreDepartamento=" 
 	
-
-
-	public static String pedirnombre(String mensaje) {
-		String s1;
-		Scanner sc = new Scanner(System.in);
-		System.out.println(mensaje);
-		s1 = sc.nextLine();
-		return s1;
-		
-		
+				+ nombreDepartamento + ",\nel sueldo final con la bonificacion de 500 euros es :" + (Sueldojefe + super.getSueldo())
+				+ "]";
 	}
-	int sueldojefe=0;
-
-		public void sueldojefe(){
-		
-			sueldojefe=sueldo+sueldojefe;
-			
-		}
-		
-
-
-
-
-
-	}
-
-	public static Integer pedirsueldo(String mensaje){
-		
-		String numero = "";
-		int num;
-		Scanner sc = new Scanner(System.in);
-		do {
-			System.out.println(mensaje);
-			numero = sc.nextLine();
-		} while (!esNumerico(numero));
-		num = Integer.parseInt(numero);
-		return num;
-
-	}
-	public static Integer pedirtitulo(String mensaje){
-		String numero = "";
-		int num;
-		Scanner sc = new Scanner(System.in);
-		do {
-			System.out.println(mensaje);
-			numero = sc.nextLine();
-		} while (!esNumerico(numero));
-		num = Integer.parseInt(numero);
-		return num;
-
-	}
-
-
-	public static boolean esNumerico(String cadena) {
-		boolean resultado;
-		try {
-			Integer.parseInt(cadena);
-			resultado = true;
-		} catch (NumberFormatException excepcion) {
-			resultado = false;
-		}
-		return resultado;
-	}//esNumerico
-
-
-
-
-
 	
 	
+
+
+
+
+
+
+
 
 }
