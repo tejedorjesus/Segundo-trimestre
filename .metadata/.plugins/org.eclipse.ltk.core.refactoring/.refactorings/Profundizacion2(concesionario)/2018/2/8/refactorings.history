@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void listar(Integer numLineas, Automovil [] coche)&apos; from &apos;Gestion.main()&apos; to &apos;Gestion&apos;&#x0D;&#x0A;- Original project: &apos;Profundizacion2(concesionario)&apos;&#x0D;&#x0A;- Method name: &apos;listar&apos;&#x0D;&#x0A;- Destination type: &apos;Gestion&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;listar&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Gestion.java" name="listar" replace="false" selection="756 193" stamp="1519033739869" version="1.0" visibility="2"/>
+</session>
