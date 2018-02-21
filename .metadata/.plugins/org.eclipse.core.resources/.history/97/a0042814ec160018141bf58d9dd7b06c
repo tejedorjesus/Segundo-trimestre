@@ -1,0 +1,68 @@
+
+public class Indicador {
+	
+	private Integer Valorinicial;
+	
+	private static Integer ValorMinimo=0;
+	private Integer ValorMaximo=0;
+	private Integer ValorActual=0;
+	private String Unidades;
+	private String nombre;
+	
+	public Integer getValorinicial() {
+		return Valorinicial;
+	}
+	public void setValorinicial(Integer valorinicial) {
+		Valorinicial = valorinicial;
+	}
+	public Integer getValorMinimo() {
+		return ValorMinimo;
+	}
+	public void setValorMinimo(Integer valorMinimo) {
+		ValorMinimo = valorMinimo;
+	}
+	public Integer getValorMaximo() {
+		return ValorMaximo;
+	}
+	public void setValorMaximo(Integer valorMaximo) {
+		ValorMaximo = valorMaximo;
+	}
+	public Integer getValorActual() {
+   
+		ValorActual=ValorActual + llenar;
+		return ValorActual;
+	}
+	public void setValorActual(Integer valorActual) {
+		ValorActual = valorActual;
+	}
+	public String getUnidades() {
+		return Unidades;
+	}
+	public void setUnidades(String unidades) {
+		Unidades = unidades;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public void llenar(Integer datos){
+		int llenar=0;
+		llenar= Valorinicial+ValorActual;
+	
+	
+		
+		
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "Indicador [Valorinicial=" + Valorinicial + ", ValorMinimo=" + ValorMinimo + ", ValorMaximo="
+				+ ValorMaximo + ", ValorActual=" + ValorActual + ", Unidades=" + Unidades + ", nombre=" + nombre + "]";
+	}
+	
+	
+}
