@@ -1,0 +1,48 @@
+
+public class libro {
+	
+	
+	private  String titulo;
+	private String Autor;
+	private  double precio;
+	private  int cantidad  = 0;
+
+	
+	public libro(String titulo, String autor, double precio, int cantidad) {
+		super();
+		this.titulo = titulo;
+		Autor = autor;
+		this.precio = precio;
+		this.cantidad = cantidad;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getAutor() {
+		return Autor;
+	}
+	public void setAutor(String autor) {
+		Autor = autor;
+	}
+	public double getPrecio() {
+		return precio;
+	}
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+	public int getCantidad() {
+		return cantidad;
+	}
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	public String cadenaLibro() {
+		return  "libro [titulo=" + titulo + ", Autor=" + Autor + ", precio=" + precio + ", cantidad=" + cantidad + "]";
+	}
+	
+
+}

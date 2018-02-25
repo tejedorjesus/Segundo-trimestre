@@ -14,6 +14,10 @@ public class tragabolasGestion {
 		tragabolas hipopotamo=null;
 	
 		opcion=Metodos.pedirentero("vamos a crear el tragabolas \n1- creacion del animal \n2-comer \n3-trotar \n4-dormir \n5-visualizar \n0-salir");
+		while (opcion ==2 || opcion ==3 || opcion ==4 || opcion ==5 || opcion >5){
+			System.out.println("primero debes de crear el animal o salir del menu");
+			opcion=Metodos.pedirentero("vamos a crear el tragabolas \n1- creacion del animal");
+		}
 		
 		while(opcion!=0){
 		switch (opcion) {
@@ -44,8 +48,7 @@ public class tragabolasGestion {
 			break;
 			
 		case 5:
-			
-			System.out.println(hipopotamo.getBolasComidas());
+		
 			System.out.println(hipopotamo);
 			break;
 

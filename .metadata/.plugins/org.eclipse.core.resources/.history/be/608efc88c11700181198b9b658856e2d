@@ -1,0 +1,75 @@
+
+public class CuentaGestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String numCuenta1="001";
+		String numCuenta2="002";
+		double saldo=0;
+		String cliente="";
+		int opcion=0;
+
+		Cuenta cuenta1=null;
+		Cuenta cuenta2;
+
+
+		opcion=Metodos.pedirentero("1-crear cuenta 001 \n2-crear cuenta 002 "
+				+ "\n3-ingresar en 001 \n4-ingresar en 002"
+				+ " \n5-sacar de la 001 \n6-sacar de la 002 \n7 visualizar estado");
+		while (opcion !=0){
+		switch (opcion) {
+		case 1:
+			cliente=Metodos.pedirdep("introduzca su nombre para crear la cuenta");
+			cuenta1 = new Cuenta(numCuenta1,saldo,cliente);
+			
+			System.out.println(cuenta1);
+			break;
+		case 2:
+			cliente=Metodos.pedirdep("introduzca su nombre para crear la cuenta");
+			cuenta2 = new Cuenta(numCuenta2,saldo,cliente);
+			
+			System.out.println(cuenta2);
+
+			break;
+		case 3:
+			
+			cuenta1.Ingresar(saldo);
+			
+			
+
+			break;
+		case 4:
+
+			break;
+		case 5:
+
+			break;
+
+		case 6:
+
+			break;
+		case 7:
+
+
+			System.out.println(cuenta1);
+			
+			break;
+
+
+
+		default:
+			break;
+		}
+		opcion=Metodos.pedirentero( "\n3-ingresar en 001 \n4-ingresar en 002 \n5-sacar de la 001 \n6-sacar de la 002 \n7 visualizar estado");
+		
+		}
+
+
+
+
+
+
+
+	}
+
+}

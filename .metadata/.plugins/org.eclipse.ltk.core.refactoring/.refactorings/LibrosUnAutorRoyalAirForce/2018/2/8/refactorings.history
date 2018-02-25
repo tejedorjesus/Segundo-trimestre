@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;GestioLibroAutor.java&apos; to &apos;GestionLibroAutor.java&apos;&#x0D;&#x0A;- Original project: &apos;LibrosUnAutorRoyalAirForce&apos;&#x0D;&#x0A;- Original element: &apos;GestioLibroAutor.java&apos;&#x0D;&#x0A;- Renamed element: &apos;GestionLibroAutor.java&apos;" description="Rename compilation unit &apos;GestioLibroAutor.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{GestioLibroAutor.java" name="GestionLibroAutor.java" references="false" stamp="1519466231650" version="1.0"/>
+</session>

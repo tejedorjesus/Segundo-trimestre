@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Tema9Ejercicio1/src/Gestion.java"/>
+<listEntry value="/Repaso1book1cup/src/gestion.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Gestion"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Tema9Ejercicio1"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="gestion"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Repaso1book1cup"/>
 </launchConfiguration>
