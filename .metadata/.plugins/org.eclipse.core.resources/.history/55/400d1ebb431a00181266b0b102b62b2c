@@ -1,0 +1,56 @@
+
+public class paises {
+	
+	
+	private String nombre;
+	private static int contapais;
+
+	public paises(String nombre) {
+		contapais++;
+		this.nombre = nombre;
+		
+	}
+	
+
+
+
+
+
+	public static int getContapais() {
+		return contapais;
+	}
+
+
+
+
+
+
+	public static void setContapais(int contapais) {
+		paises.contapais = contapais;
+	}
+
+
+
+
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void eliminar(delete){
+		
+		
+	}
+	
+	
+	@Override
+	public String toString() {
+		return " [ " + nombre + "]";
+	} 
+
+}
