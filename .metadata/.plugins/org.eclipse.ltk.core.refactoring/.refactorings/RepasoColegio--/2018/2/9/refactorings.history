@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void creasignaturas()&apos; from &apos;Colegio.main()&apos; to &apos;Colegio&apos;&#x0D;&#x0A;- Original project: &apos;RepasoColegio&apos;&#x0D;&#x0A;- Method name: &apos;creasignaturas&apos;&#x0D;&#x0A;- Destination type: &apos;Colegio&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;creasignaturas&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Colegio.java" name="creasignaturas" replace="false" selection="338 391" stamp="1519757492765" version="1.0" visibility="2"/>
+</session>

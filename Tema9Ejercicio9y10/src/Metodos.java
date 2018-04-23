@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Metodos {
-	public static String pedirnombre(String mensaje) {
+	public static String pedirString(String mensaje) {
 		String s1;
 		Scanner sc = new Scanner(System.in);
 		System.out.println(mensaje);

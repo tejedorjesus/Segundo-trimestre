@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void visualizar(ListaDePaises [] paises)&apos; from &apos;GestionPaises.main()&apos; to &apos;GestionPaises&apos;&#x0D;&#x0A;- Original project: &apos;paises prueba&apos;&#x0D;&#x0A;- Method name: &apos;visualizar&apos;&#x0D;&#x0A;- Destination type: &apos;GestionPaises&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;visualizar&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{GestionPaises.java" name="visualizar" replace="false" selection="489 92" stamp="1519899238773" version="1.0" visibility="2"/>
+</session>

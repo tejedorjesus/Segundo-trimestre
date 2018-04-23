@@ -1,0 +1,5 @@
+1519907104000	Delete element
+1519908030354	Extract method 'visualizarJefes'
+1519908058989	Extract method 'viualizarEmpleados'
+1519908088608	Extract method 'crearEmpleados'
+1519908105622	Extract method 'crearJefes'
